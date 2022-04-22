@@ -2,13 +2,11 @@
 
 namespace blog.Controllers
 {
-   // [Route("test/api")]
-    public class HomeController : Controller
+    public class AboutUsController : Controller
     {
-        //[HttpPost("person")]
         public IActionResult Index()
         {
-            ViewBag.Title = "Home";
+            ViewBag.Title = "About Us";
             return View();
         }
     }
